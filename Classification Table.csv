@@ -1,0 +1,41 @@
+Severity,Action,IP address,User,Count
+High,malware detected,10.0.0.5,bob,2
+High,malware detected,10.0.0.5,eve,2
+High,malware detected,172.16.0.3,alice,2
+High,malware detected,172.16.0.3,bob,2
+High,malware detected,172.16.0.3,charlie,2
+High,malware detected,172.16.0.3,david,2
+High,malware detected,192.168.1.101,alice,2
+High,malware detected,192.168.1.101,eve,2
+High,malware detected,198.51.100.42,alice,2
+High,malware detected,203.0.113.77,bob,2
+High,malware detected,203.0.113.77,eve,2
+Low,connection,192.168.1.101,charlie,6
+Low,login,203.0.113.77,david,6
+Low,connection,10.0.0.5,david,4
+Low,connection,172.16.0.3,david,4
+Low,file,198.51.100.42,bob,4
+Low,login,10.0.0.5,bob,4
+Low,login,198.51.100.42,alice,4
+Low,login,203.0.113.77,alice,4
+Low,connection,10.0.0.5,charlie,2
+Low,connection,172.16.0.3,charlie,2
+Low,connection,192.168.1.101,bob,2
+Low,connection,203.0.113.77,bob,2
+Low,connection,203.0.113.77,david,2
+Low,file,10.0.0.5,david,2
+Low,file,172.16.0.3,bob,2
+Low,file,172.16.0.3,eve,2
+Low,file,198.51.100.42,david,2
+Low,file,203.0.113.77,alice,2
+Low,file,203.0.113.77,bob,2
+Low,file,203.0.113.77,charlie,2
+Low,file,203.0.113.77,david,2
+Low,file,203.0.113.77,eve,2
+Low,login,172.16.0.3,bob,2
+Low,login,172.16.0.3,charlie,2
+Low,login,172.16.0.3,eve,2
+Low,login,192.168.1.101,bob,2
+Low,login,198.51.100.42,bob,2
+Low,login,198.51.100.42,charlie,2
+Low,login,203.0.113.77,eve,2
